@@ -1,0 +1,28 @@
+{
+    "name": "package/comment",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pondit",
+            "email": "pondit@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Comment\\": "src/"
+        }
+    },
+    "extra": {
+        "copyright": "",
+        "laravel": {
+            "providers": [
+                "Comment\\Providers\\CommentServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

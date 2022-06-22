@@ -1,0 +1,28 @@
+{
+    "name": "package/slider",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pondit",
+            "email": "pondit@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pondit\\PonditCommerce\\Slider\\": "src/"
+        }
+    },
+    "extra": {
+        "copyright": "",
+        "laravel": {
+            "providers": [
+                "Pondit\\PonditCommerce\\Slider\\Providers\\SliderServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

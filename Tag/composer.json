@@ -1,0 +1,28 @@
+{
+    "name": "package/tag",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pondit",
+            "email": "pondit@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pondit\\PonditCommerce\\Tag\\": "src/"
+        }
+    },
+    "extra": {
+        "copyright": "",
+        "laravel": {
+            "providers": [
+                "Pondit\\PonditCommerce\\Tag\\Providers\\TagServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

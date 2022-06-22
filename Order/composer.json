@@ -1,0 +1,28 @@
+{
+    "name": "package/order",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pondit",
+            "email": "pondit@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pondit\\PonditCommerce\\Order\\": "src/"
+        }
+    },
+    "extra": {
+        "copyright": "",
+        "laravel": {
+            "providers": [
+                "Pondit\\PonditCommerce\\Order\\Providers\\OrderServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
